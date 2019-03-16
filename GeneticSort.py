@@ -102,8 +102,3 @@ def run(inp, population_size, mutation_rate):
     
     print('Solution found:',population.best_individual.genome)
 
-if __name__ == "__main__":
-    inp = [i for i in range(20,0,-1)]
-    population_size = 10
-    mutation_rate = 0.1
-    run(inp,population_size,mutation_rate)
